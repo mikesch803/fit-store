@@ -7,10 +7,6 @@
                         "... ... ..."
 }
 
-.header {
-    grid-area: header;
-}
-
 .form {
     grid-area: login;
     padding: 1rem;
