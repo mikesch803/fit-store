@@ -50,3 +50,9 @@
   background-color: var(--COLOR-FT);
   color: var(--COLOR-PRIMARY);
 }
+
+.card-price,
+.card-mrp {
+  font-weight: 400;
+  font-size: 1rem;
+}

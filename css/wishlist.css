@@ -29,3 +29,14 @@
 .card-img {
   object-fit: contain;
 }
+
+  
+.card-price,
+.card-mrp {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.card-mrp {
+  font-size: 1rem;
+}
