@@ -1,18 +1,18 @@
-
 .grid-layout {
-    display: grid;
-    height: 100vh;
-    grid-template-areas: "header header header"
-                         "... ... ..."
-                         "... signup ..."
-                         "... ... ...";
+  display: grid;
+  height: 100vh;
+  grid-template-areas:
+    "header header header"
+    "... ... ..."
+    "... signup ..."
+    "... ... ...";
 }
 
 .form {
-    grid-area: signup;
+  grid-area: signup;
 }
 
 .signup-checkbox {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
