@@ -2,9 +2,9 @@
     display: grid;
     height: 100vh;
     grid-template-areas: "header header header"
-                        "... ... ..."
-                        "... login ..."
-                        "... ... ..."
+                         "... ... ..."
+                         "... login ..."
+                         "... ... ...";
 }
 
 .form {
