@@ -2,3 +2,19 @@ body {
     max-width: 100vw;
     word-spacing: 2px;
   }
+
+  .card {
+    background-color: var(--COLOR-FT);
+    border: none;
+  }
+
+  
+.card-price,
+.card-mrp {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.card-mrp {
+  font-size: 1rem;
+}
