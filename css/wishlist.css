@@ -17,23 +17,8 @@
   padding: 1rem;
 }
 
-.card {
-  background-color: var(--COLOR-FT);
-  border: none;
-}
-
 .card-dismis-btn {
   color: var(--COLOR-ERROR);
-}
-
-.card-price,
-.card-mrp {
-  font-weight: 400;
-  font-size: 1.5rem;
-}
-
-.card-mrp {
-  font-size: 1rem;
 }
 
 .card-img-hz {
@@ -43,4 +28,15 @@
 
 .card-img {
   object-fit: contain;
+}
+
+  
+.card-price,
+.card-mrp {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.card-mrp {
+  font-size: 1rem;
 }
