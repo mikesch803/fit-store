@@ -17,6 +17,10 @@
   padding: 0.5rem;
 }
 
+.navbar-title a {
+  color: var(--COLOR-FT);
+}
+
 .navbar-search {
   border-radius: 10px;
   background: var(--COLOR-FT);
@@ -55,4 +59,13 @@
 .card-mrp {
   font-weight: 400;
   font-size: 1rem;
+}
+
+.bg-num {
+  top: -0.07rem;
+  background-color: var(--COLOR-ERROR);
+}
+
+.bg-icon {
+  color: var(--COLOR-FT);
 }
