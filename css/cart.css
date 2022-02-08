@@ -29,40 +29,43 @@
 }
 
 .total-qty {
-    width: 46px;
-    outline: none;
+  width: 46px;
+  outline: none;
 }
 
 .card-txt {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    padding: 1rem;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: space-between;
 }
 
 .card-txt p,
-.card-txt h3  {
-    display: flex;
-    /* flex-direction: column; */
+.card-txt h3 {
+  display: flex;
 }
 
-.card-txt p>span,
-.card-txt h3>span {
-    margin-left: auto;
+.card-txt p > span,
+.card-txt h3 > span {
+  margin-left: auto;
 }
 
 .card:hover {
-    box-shadow: none;
+  box-shadow: none;
 }
 
 .cart-desc {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .product-qty {
   width: 2.8rem;
   outline: none;
+}
+
+.cart-product-qty {
+  list-style-type: none;
 }
