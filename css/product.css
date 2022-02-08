@@ -8,11 +8,11 @@
     "aside product product";
 }
 
-.aside {
+.aside-product {
   grid-area: aside;
 }
 
-.sidebar {
+.sidebar-product {
   margin: 2rem;
 }
 
@@ -53,7 +53,9 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
+  list-style-type: none;
 }
+
 
 .card-img {
   object-fit: contain;
