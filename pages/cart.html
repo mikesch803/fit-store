@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://component-site-fitui.netlify.app/components/components.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+</head>
+
+<body>
+    <div class="grid-layout">
+        <header class="header">
+            <div class="navbar">
+                <h1 class="navbar-title">Fit Store</h1>
+                <div class="navbar-search">
+                    <input type="text" placeholder="search..." class="navbar-input"><span
+                        class="iconify navbar-search-icon" data-icon="bx:bx-search" data-inline="false"></span>
+                </div>
+                <div class="navbar-icons">
+                    <a href="#" class="btn btn-link navbar-login">login</a>
+                    <a class="navbar-wishlist" href="#"><span class="iconify navbar-wishlist-icon"
+                            data-icon="mdi:cards-heart-outline" data-inline="false"></span></a>
+                    <a class="btn btn-link navbar-cart" href="#"><span class="iconify navbar-cart-icon"
+                            data-icon="zmdi:shopping-cart" data-inline="false"></span></a>
+                </div>
+            </div>
+        </header>
+        <section class="section-cart-left">
+            <h3>My cart (20)</h3>
+            <ul class="cart-product-qty">
+                <li>
+                    <div class="card card-hz">
+                        <div class="card-img-container card-img-hz"><img class="card-img"
+                                src="../assests/images/tracksuit.png" alt="track-suit">
+                        </div>
+                        <div class="card-desc cart-desc">
+                            <h3>Track suit</h3>
+                            <p>by H&M</p><span class="card-price">Rs 499<del class="card-mrp">Rs
+                                999</del></span>
+                            <!-- <div class="qty-container"> -->
+                                <form action="">
+                                <label for="">Quantity
+                                    <input type="number" class="product-qty">
+                                </label>
+                                </form>
+                            <!-- </div> -->
+                            <div class="card-btns card-btns-hz">
+                                <button class="card-cart btn btn-primary ">remove from cart</button>
+                                <button class="card-cart btn btn-outline ">move to wishlist</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="section-cart-right">
+            <div class="cart-price-detail">
+                <h3>Price details</h3>
+                <div class="card card-vrt card-txt">
+                   
+                     <p>Price (2) <span>Rs 1999</span></p>
+                     <p>Discount <span>Rs -1000</span></p>
+                     <p>Delivery charges <span>Rs 100</span></p>
+                     <h3>Total Amount <span>1099</span></h3>
+                     <p>you will save Rs 1000 on this order</p>
+                            <div class="card-btns">
+                                <button class="card-cart btn btn-primary">place order</button>
+                              </div>
+                    
+                    </div>
+
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
