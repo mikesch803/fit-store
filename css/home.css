@@ -3,26 +3,29 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
     "header header header"
-    "section-left main-home section-right"
+    "main-home main-home main-home"
     "bottom-left bottom-mid bottom-right"
     "footer footer footer";
 }
 
-.section-home-left {
-  grid-area: section-left;
-  margin: 2rem;
+.img-resp {
+  width: 85%;
 }
 
 .main-home {
   grid-area: main-home;
+  position: relative;
 }
 
-.section-home-right {
-  grid-area: section-right;
+.main-txt {
+  position: absolute;
+  top: 2;
+  left: 0;
+  right: 0;
+  margin: 30rem;
 }
 
-.section-home-left,
-.section-home-right,
+.main-home,
 .section-bottom-left,
 .section-bottom-mid,
 .section-bottom-right,
@@ -40,13 +43,11 @@
 }
 
 .main-home h1 {
-  font-size: 5rem;
-  margin: 4rem;
+  font-size: 7rem;
 }
 
 .main-home h2 {
-  font-size: 3rem;
-  margin: 4rem 5rem;
+  font-size: 4rem;
 }
 
 .section-bottom-left {
@@ -68,7 +69,7 @@
 .img-bottom-left,
 .img-bottom-mid,
 .img-bottom-right {
-  width: 70%;
+  width: 85%;
   object-fit: cover;
 }
 

@@ -8,7 +8,7 @@
     <title>FitStore | Home</title>
     <link rel="stylesheet" href="https://component-site-fitui.netlify.app/components/components.css">
     <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/home.css">
     <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
 </head>
@@ -17,13 +17,15 @@
     <div class="grid-layout-home">
         <header class="header">
             <div class="navbar">
-                <h1 class="navbar-title" ><a href="./pages/product.html">Fit Store</a></h1>
+                <h1 class="navbar-title" ><a href="#">Fit Store</a></h1>
                 <div class="navbar-search">
                     <input type="text" placeholder="search..." class="navbar-input"><span
                         class="iconify navbar-search-icon" data-icon="bx:bx-search" data-inline="false"></span>
                 </div>
                 <div class="navbar-icons">
                     <a href="./pages/login.html" class="btn btn-link navbar-login">login</a>
+
+                    <a href="./pages/product.html" class="btn btn-link navbar-shop">shop</a>
 
                     <a href="/pages/wishlist.html" class="bg btn btn-link navbar-wishlist">
                         <span class="iconify bg-icon" data-icon="mdi:cards-heart-outline" data-inline="false"></span><span class="bg-num">2</span></a>
@@ -33,17 +35,14 @@
                 </div>
             </div>
         </header>
-        <section class="section-home-left">
-            <img src="./assests/images/image1.png" alt="man" class="img-home-left">
-        </section>
         <main class="main-home">
+            <img src="./assests/images/landing-poster.png" alt="landing-poster" class="img-resp" loading="lazy">
+            <div class="main-txt">
             <h1 class="ft-w-400 txt-center">New in Sale</h1>
             <h2 class="ft-w-300 ft-grey txt-center">Upto to 50% in all brands</h2>
+        </div>
         </main>
-        <section class="section-home-right">
-            <img src="./assests/images/image2.png" alt="man" class="img-home-right">
-        </section>
-        <section class="section-bottom-left">
+         <section class="section-bottom-left">
              <img src="./assests/images/pro1.png" alt="protein-powder" class="img-bottom-left">
              <div>
              <p class="ft-w-400 ft-grey">My Protein</p>

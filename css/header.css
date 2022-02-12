@@ -50,9 +50,10 @@
   gap: 1rem;
 }
 
-.navbar-login {
-  background-color: var(--COLOR-FT);
-  color: var(--COLOR-PRIMARY);
+.navbar-login,
+.navbar-shop {
+  color: var(--COLOR-FT);
+  background:none;
 }
 
 .card-price,
