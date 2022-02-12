@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="../css/signup.css">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
 </head>
 
@@ -18,17 +18,21 @@
     <div class="grid-layout">
         <header class="header">
             <div class="navbar">
-                <h1 class="navbar-title" ><a href="./product.html">Fit Store</a></h1>
+                <h1 class="navbar-title" ><a href="../index.html">Fit Store</a></h1>
                 <div class="navbar-search">
                     <input type="text" placeholder="search..." class="navbar-input"><span
                         class="iconify navbar-search-icon" data-icon="bx:bx-search" data-inline="false"></span>
                 </div>
                 <div class="navbar-icons">
-                    <a href="./login.html" class="btn btn-link navbar-login">login</a>
-                    <a class="navbar-wishlist" href="#"><span class="iconify navbar-wishlist-icon"
-                            data-icon="mdi:cards-heart-outline" data-inline="false"></span></a>
-                    <a class="btn btn-link navbar-cart" href="#"><span class="iconify navbar-cart-icon"
-                            data-icon="zmdi:shopping-cart" data-inline="false"></span></a>
+                    <a href="/pages/login.html" class="btn btn-link navbar-login">login</a>
+
+                    <a href="/pages/product.html" class="btn btn-link navbar-shop">shop</a>
+
+                    <a href="/pages/wishlist.html" class="bg btn btn-link navbar-wishlist">
+                        <span class="iconify bg-icon" data-icon="mdi:cards-heart-outline" data-inline="false"></span><span class="bg-num">2</span></a>
+
+                    <a href="/pages/cart.html" class="bg btn btn-link navbar-cart">
+                            <span class="iconify bg-icon" data-icon="zmdi:shopping-cart" data-inline="false"></span><span class="bg-num">7</span></a>
                 </div>
             </div>
         </header>
