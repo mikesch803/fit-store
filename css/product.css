@@ -25,6 +25,12 @@
   line-height: 2;
 }
 
+.aside-category > label > input,
+.aside-rating > label > input,
+.aside-sort > label > input {
+  margin-right: 5px;
+}
+
 .aside-filter {
   display: flex;
   justify-content: space-between;
@@ -56,13 +62,13 @@
   list-style-type: none;
 }
 
-
 .card-img {
   object-fit: contain;
 }
 
 .category,
 .star,
-.sort {
+.sort,
+.aside-filter-clear {
   cursor: pointer;
 }
